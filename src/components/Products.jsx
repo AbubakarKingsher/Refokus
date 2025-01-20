@@ -67,7 +67,7 @@ function Products() {
             ))}
             <div className='h-full w-full absolute pointer-events-none left-0 top-0'>
                 <motion.div transition={{ ease: [0.83, 0, 0.17, 1], duration: .6 }} initial={{ y: pos, }} animate={{ y: pos + `px` }} className='window h-[250px] absolute left-[25%] w-[30%] overflow-hidden z-50'>
-                    <motion.video transition={{ ease: [0.83, 0, 0.17, 1], duration: .6 }} animate={{ y: -pos }} className='h-full w-full object-cover rounded-md' loop muted autoPlay src="./public/assets/vdo.webm" />
+                    <motion.video transition={{ ease: [0.83, 0, 0.17, 1], duration: .6 }} animate={{ y: -pos }} className='h-full w-full object-cover rounded-md' loop muted autoPlay src="/assets/vdo.webm" />
                     <motion.div transition={{ ease: [0.83, 0, 0.17, 1], duration: .6 }} animate={{ y: -pos }} className='window h-full w-full  overflow-hidden'>
                         <img className='h-full w-full object-cover rounded-md' src="https://cdn.prod.website-files.com/664dc8b6bc52b504509197f0/667d026ddba9301ca7143513_4297605234.webp" />
                     </motion.div>

@@ -21,7 +21,7 @@ function Footer() {
             <div>
                 <p className='md:text-base text-xs font-medium mb-5 whitespace-nowrap mt-7 font-[satoshi-regular]'>Refolus is a pioneering <br /> digital agency driven by <br /> desing and empowered by <br /> tenchnology.</p>
                 <button className='flex gap-4 py-2 rounded md:px-4 px-2 bg-blue-600 items-center'>
-                    <img className='w-6' src="./public/assets/w.png" />
+                    <img className='w-6' src="/assets/w.png" />
                     <h4 className='text-sm font-medium'>Enterprise Partner</h4>
                 </button>
             </div>
